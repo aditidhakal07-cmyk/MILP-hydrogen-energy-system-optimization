@@ -57,7 +57,7 @@ The scripts formulate and solve the optimization problem. The condensed versions
 
 The complete mathematical formulation, including the objective function, decision variables, constraints, modelling assumptions, and solution procedure, is provided in the following PDF excerpt from the master's thesis:
 
-[**Theoretical Foundation and MILP Formulation (PDF)**](Documentation/Theoretical_Foundation_MILP.pdf)
+[Theoretical Foundation and MILP Formulation (PDF)](Documentation/Theoretical%20Foundation%20MILP.pdf)
 
 ## Project Context
 
