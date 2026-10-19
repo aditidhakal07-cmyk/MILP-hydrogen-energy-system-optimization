@@ -61,3 +61,16 @@ The complete mathematical formulation, including the objective function, decisio
 ## Project Context
 
 This work forms part of a master's thesis investigating the integration of photovoltaic electricity, water electrolysis, and hydrogen storage for industrial coffee roasting. The MILP framework is used to evaluate optimal energy allocation and hydrogen storage requirements for the two system configurations.
+
+
+## How to Explore This Repository
+
+Visitors can explore the MATLAB scripts for the two MILP optimization configurations in the [`MATLAB/`](MATLAB/) folder, access the hourly input dataset in [`Input_Data/`](Input_Data/), and refer to the [`Documentation/`](Documentation/) folder for the detailed mathematical formulation extracted from the master's thesis.
+
+The repository is intended to demonstrate the optimization methodology, mathematical modelling, and MATLAB implementation of the proposed hydrogen energy system.
+
+## Author
+
+Aditi Dhakal
+
+Master's Thesis Project | Renewable Energy Systems | Hydrogen Technologies | MILP Optimization
