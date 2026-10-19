@@ -40,14 +40,13 @@ These profiles are used as predefined inputs rather than independently optimized
 
 Both optimization scripts use the same Excel dataset, containing hourly PV availability, industrial electricity demand, hydrogen demand, electricity prices, feed-in tariffs, and electrolyzer operating parameters.
 
-**Input file:** `KK_1140xPV_Master_Optimization_Dataset_MILP.xlsx`
+**Input file:** [Download Input Dataset (Excel)](Input_Data/KK_1140xPV_Master_Optimization_Dataset_MILP.xlsx)
 
 ## MATLAB Implementation
 
 The repository includes two condensed MATLAB scripts presenting the MILP formulation for each configuration:
-
-- `Condensed_Case1_Script.m` – LP hydrogen storage optimization.
-- `Condensed_Case2_Script.m` – HP hydrogen storage optimization with compressor electricity requirements.
+- [Case 1 – Low-Pressure Storage](MATLAB/Condensed_Case1_Script.m) – LP hydrogen storage optimization.
+- [Case 2 – High-Pressure Storage](MATLAB/Condensed_Case2_Script.m) – HP hydrogen storage optimization with compressor electricity requirements.
 
 **Requirements:** MATLAB with Optimization Toolbox (`intlinprog`).
 
