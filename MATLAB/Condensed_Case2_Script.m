@@ -2,7 +2,11 @@
 clear; clc;
 
 %% 1. Input data
-T = readtable("KK_1140xPV_Master_Optimization_Dataset_MILP.xlsx");
+scriptFolder = fileparts(mfilename('fullpath'));
+repoFolder = fileparts(scriptFolder);
+inputFile = fullfile(repoFolder, 'Input_Data', 'KK_1140xPV_Master_Optimization_Dataset_MILP.xlsx');
+
+T = readtable(inputFile);
 T = T(1:min(8760,height(T)),:); N = height(T);
 
 PV_avail=T.PV_available_kWh;
